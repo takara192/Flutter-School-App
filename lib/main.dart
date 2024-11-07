@@ -24,8 +24,6 @@ Future beforeRunApp() async {
 
   await DatabaseHelper.instance.database;
 
-  await DatabaseHelper.insertMoreFakeData();
-
 }
 
 class MyApp extends StatelessWidget {
